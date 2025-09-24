@@ -50,9 +50,6 @@ let Terms=`<div class="Terms">
             </div>`
 
             let termsStyle=document.querySelector('.about-grid')
-            let aboutHeight=document.querySelector('.about-section')
-            termsStyle.style.margin="0 10% 0 10%";
-            termsStyle.style.height="100%"
             termsStyle.style.display="block"
 
             hi.innerHTML=Terms
