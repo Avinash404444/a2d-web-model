@@ -117,7 +117,8 @@ body{
     text-transform: uppercase;
     align-items: center;
 }
-.tittle-btn p{
+.tittle-btn a{
+    text-decoration: none;
     font-family: big-one; 
     font-size: 20px;
     font-weight: 600;
@@ -376,7 +377,8 @@ body{
     align-items: center;
 }
 
-.support-btn p{
+.support-btn a{
+    text-decoration: none;
     height: 50%;
     font-family: big-one; 
     font-size: 20px;
@@ -384,6 +386,9 @@ body{
     margin: 15px 3px 0 auto;
     text-transform: uppercase;
 }
+ .support-btn i{
+        margin: 0 auto 0 auto;
+    }
 .support-paragraph{
     padding-top: 30px;
 }
@@ -488,7 +493,8 @@ body{
     cursor: pointer;
 }
 
-.inner-section-contact-p p{
+.inner-section-contact-p a{
+    text-decoration: none;
     padding-top: 20px;
     color: var(--bs-primary);
     font-family:poppins;
@@ -592,7 +598,7 @@ body{
         margin: 2% auto 0 auto;
     }
     
-    .tittle-btn p{
+    .tittle-btn a{
         margin: 5px 3px 0 auto;
     }
     
@@ -739,7 +745,7 @@ body{
         align-content: center;
     }
 
-    .support-btn p{
+    .support-btn a{
         font-size: 15px;
         font-weight: bold;
         margin: 0px 3px 0 auto;
@@ -787,7 +793,7 @@ body{
         padding-top: 5px;
         font-size: 15px;
     }
-    .inner-section-contact-p p{
+    .inner-section-contact-p a{
         padding-top: 10px;
         font-size: 15px;
     }
@@ -820,5 +826,6 @@ body{
         font-size: 20px;
     }
 }
+
 
 
